@@ -29,7 +29,14 @@ const projects = [
       "Don't want to roll the dice whenever you go to your local dog park? Purely Puptonic is a social media platform for dog owners to organize dog meetups and review other dog owners who attended.",
     description2:
       'Host your own event and approve owners who request to join. Organize meetups with reputable dog owners while also building your own reputation! We encourage rating on not the actual behavior of the dog, but the honesty of the attendee when it comes to their dog when requesting to join.',
-    stack: ['Tailwind', 'FastAPI', 'Psycopg', 'React'],
+    stack: [
+      'Tailwind',
+      'FastAPI',
+      'Psycopg',
+      'React',
+      'Docker',
+      'Gitlab CI/CD',
+    ],
     sourceCode:
       'https://purely-puptonic.gitlab.io/puppin/https:/gitlab.com/purely-puptonic/puppin',
     livePreview: 'https://purely-puptonic.gitlab.io/puppin/',
@@ -39,9 +46,10 @@ const projects = [
     img: 'https://i.imgur.com/zdpFCyZ.png',
     description:
       'Oyasu is the premiere dealership management utility. Manage your database by keeping track of your inventory, sales, and service operations! Keeps note of VIP customers and already sold merchandise.',
-    stack: ['Bootstrap', 'Django', 'React'],
+    stack: ['Bootstrap', 'Django', 'React', 'Docker', 'Firebase'],
     sourceCode: 'https://gitlab.com/wangrogerc/project-beta',
     livePreview: 'https://oyasu-73100.web.app/home',
+    status: 'Currently uses static deployment',
   },
   {
     name: 'Pokebend',
@@ -50,7 +58,7 @@ const projects = [
       'Choose your destiny by picking which element to use against a randomly generated pokemon and get a new high score! Pokemon extracted fresh from PokeAPI.',
     description2:
       'Try the toggleable gamemode "Ammo Mode" which decrements element ammo when you use that specified element and rewards it based on the pokemon you defeat.',
-    stack: ['React'],
+    stack: ['React', 'Firebase'],
     sourceCode: 'https://github.com/wangrogerc/pokebend',
     livePreview: 'https://pokebend.web.app/',
   },
@@ -59,9 +67,11 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'JavaScript',
+  'Python3',
+  'C#',
   'HTML',
   'CSS',
-  'JavaScript',
   'React',
   'Redux',
   'SASS',
@@ -74,9 +84,6 @@ const skills = [
   'Azure DevOps',
   'Microservices',
   'Domain Driven Design',
-  'Python3',
-  'ES6+',
-  'C#',
   'SQL',
   'MongoDB',
   'FastAPI',
