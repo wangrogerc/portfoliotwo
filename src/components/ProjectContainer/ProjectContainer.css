@@ -12,6 +12,8 @@
 
 .project__description {
   margin-top: 1em;
+  text-align: left;
+  text-indent: 30px;
 }
 
 .project__stack {
@@ -30,4 +32,8 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.imagepadding{
+  padding-top: 10px;
 }

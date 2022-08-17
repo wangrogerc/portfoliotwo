@@ -1,19 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://rogerwangportfolio01.web.app/',
+  title: 'Roger Wang.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Roger',
+  role: 'Full Stack Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Hello! My name is Roger Wang and I am a 2019 USC graduate and recent graduate of HackReactor, a full stack 19 week SE immersive. I am currently working at Levi Technologies as a software developer intern and have done so in parallel with my bootcamp.',
+  description2:
+    "As a software developer I specialize in creating APIs, databases, message queues, and SPAs. In juggling both education and work, I've found that learning parallel in both environments (bootcamp/internship) has strengthened my understanding of both new and fundamental concepts whilst simultaneously gaining important experiences in collaborating within scrum teams to address the needs and requirements of end users.",
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/wangrogerc/',
+    github: 'https://gitlab.com/wangrogerc',
   },
 }
 
@@ -21,28 +23,36 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Purely Puptonic',
+    img: 'https://i.imgur.com/jBWu7E9.png',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Don't want to roll the dice whenever you go to your local dog park? Purely Puptonic is a social media platform for dog owners to organize dog meetups and review other dog owners who attended.",
+    description2:
+      'Host your own event and approve owners who request to join. Organize meetups with reputable dog owners while also building your own reputation! We encourage rating on not the actual behavior of the dog, but the honesty of the attendee when it comes to their dog when requesting to join.',
+    stack: ['Tailwind', 'FastAPI', 'Psycopg', 'React'],
+    sourceCode:
+      'https://purely-puptonic.gitlab.io/puppin/https:/gitlab.com/purely-puptonic/puppin',
+    livePreview: 'https://purely-puptonic.gitlab.io/puppin/',
   },
   {
-    name: 'Project 2',
+    name: 'Oyasu',
+    img: 'https://i.imgur.com/zdpFCyZ.png',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Oyasu is the premiere dealership management utility. Manage your database by keeping track of your inventory, sales, and service operations! Keeps note of VIP customers and already sold merchandise.',
+    stack: ['Bootstrap', 'Django', 'React'],
+    sourceCode: 'https://gitlab.com/wangrogerc/project-beta',
+    livePreview: 'https://oyasu-73100.web.app/home',
   },
   {
-    name: 'Project 3',
+    name: 'Pokebend',
+    img: 'https://i.imgur.com/zZjdBhy.png',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Choose your destiny by picking which element to use against a randomly generated pokemon and get a new high score! Pokemon extracted fresh from PokeAPI.',
+    description2:
+      'Try the toggleable gamemode "Ammo Mode" which decrements element ammo when you use that specified element and rewards it based on the pokemon you defeat.',
+    stack: ['React'],
+    sourceCode: 'https://github.com/wangrogerc/pokebend',
+    livePreview: 'https://pokebend.web.app/',
   },
 ]
 
@@ -52,20 +62,32 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
   'Redux',
   'SASS',
-  'Material UI',
+  'Tailwind',
+  'Bootstrap',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Firebase',
+  'Docker',
+  'Azure DevOps',
+  'Microservices',
+  'Domain Driven Design',
+  'Python3',
+  'ES6+',
+  'C#',
+  'SQL',
+  'MongoDB',
+  'FastAPI',
+  'Django',
+  'RabbitMQ',
+  'Psycopg',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'wangrogerc@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

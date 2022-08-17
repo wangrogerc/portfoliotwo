@@ -6,8 +6,9 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-
+    <img src = {project.img} alt = "project" height="250" className = "imagepadding"/>
     <p className='project__description'>{project.description}</p>
+    <p className='project__description'>{project.description2}</p>
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
