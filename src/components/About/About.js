@@ -4,12 +4,12 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, social } = about
 
   return (
     <div className='about center'>
       <div>
-      <img src="https://i.imgur.com/q92l7Bx.png" alt = "profile" height="360"/>
+        <img src='https://i.imgur.com/q92l7Bx.png' alt='profile' height='360' />
       </div>
       {name && (
         <h1>
@@ -19,7 +19,7 @@ const About = () => {
 
       {role && <h2 className='about__role'>{role}.</h2>}
       <p className='about__desc'>{description && description}</p>
-      <p className = 'about__desc'>{about.description2 && about.description2}</p>
+      <p className='about__desc'>{about.description2 && about.description2}</p>
 
       <div className='about__contact center'>
         {/* {resume && (
